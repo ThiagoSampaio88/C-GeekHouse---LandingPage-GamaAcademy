@@ -1,0 +1,128 @@
+/*Remover config inicial do html*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Redizir o tamanho da imagem geekpride*/
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.section-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  height: 500px;
+  width: 500px;
+}
+
+.background-section-one {
+  background-image: url(assets/bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.background-section-produto-1 {
+  background-image: url(assets/bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.background-section-produto-1 p {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.section-container .card {
+  background: #fff;
+  height: 450px;
+  width: 360px;
+  border-radius: 12px;
+}
+
+.background-section-produto-2 {
+  background-image: url(assets/bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.background-section-produto-2 p {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.background-section-two {
+  background-image: url(assets/bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.card-container {
+  background: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 450px;
+}
+
+input {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 22px;
+  background: rgb(105, 59, 165);
+  color: #fff;
+}
+
+button {
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 22px;
+  background: rgb(105, 59, 165);
+  color: #fff;
+  transition: filter 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(0.9); /**/
+}
+
+/* :: permite mmodificar a propriedade da tag*/
+input::placeholder {
+  color: #fff;
+}
+
+form {
+  display: grid;
+}
+
+footer {
+  height: 80px;
+  padding: 20px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+/*@media{}*/
